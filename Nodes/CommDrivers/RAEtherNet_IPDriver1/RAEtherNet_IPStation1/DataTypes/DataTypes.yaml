@@ -1,0 +1,99 @@
+Name: DataTypes
+Type: FolderType
+Children:
+- Class: DataType
+  Name: UDT_Products
+  Id: g=c68a93a1e8183845cb845fbd613f09d8
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "UDT_Products",
+    "DataType": {
+     "IdType": 2,
+     "Id": "c68a93a1e8183845cb845fbd613f09d8",
+     "Namespace": 18
+    },
+    "Fields": [{
+      "Name": "Best_Before_Days",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "Custom_1",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Custom_2",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Custom_3",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Custom_4",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Description_1",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Description_2",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Description_3",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Description_4",
+      "DataType": {
+       "Id": 12
+      }
+     },{
+      "Name": "Gas_Flush",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "Label_Type",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "PieceWeight_Max",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "PieceWeight_Min",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "PLU",
+      "DataType": {
+       "Id": 4
+      }
+     },{
+      "Name": "TareWeight",
+      "DataType": {
+       "Id": 10
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"UDT_Products"}
+  Children:
+  - Name: ns=0;Default Binary
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

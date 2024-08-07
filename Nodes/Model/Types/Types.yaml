@@ -1,0 +1,36 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: Prod_Wrapper
+  Id: g=e7202ccad7a16e6b1e1b6ce376790d5d
+  Supertype: BaseObjectType
+  Children:
+  - Name: Tag
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+- Name: ProdW
+  Id: g=5847522ed0a976124e2cccefff472fe0
+  Supertype: BaseObjectType
+  Children:
+  - Name: Tag
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+- Name: MIKE_Prod
+  Id: g=2f0a1985ae3079f5da47042967415f8e
+  Supertype: BaseObjectType
+  Children:
+  - Name: Tag
+    Type: Alias
+    DataType: NodeId
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
